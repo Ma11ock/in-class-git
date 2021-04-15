@@ -3,7 +3,9 @@
 
 
 def calc(a, b):
-    sum = a + b
-    print(sum)
+    print(a + b)
+    print(a / b)
+    
+    
     
 calc(3, 4)    
