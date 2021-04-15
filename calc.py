@@ -9,7 +9,11 @@ def calc(a, b):
     lesser = a - b
     modulo = a % b
 
-    myList = [ sum, divid, lesser, modulo ]
+    myList = [ sum, divid, lesser, modulo, mult ]
+    listSum = 0
+    for i in myList:
+        listSum += i
+    print(listSum)    
     print(myList)
     
     
