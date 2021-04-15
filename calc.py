@@ -3,11 +3,14 @@
 
 
 def calc(a, b):
-    print(a + b)
-    print(a / b)
-    print(a * b)
-    print(a - b)
-    print(a % b)
+    sum = a + b
+    divid = a / b
+    mult = a * b
+    lesser = a - b
+    modulo = a % b
+
+    myList = [ sum, divid, lesser, modulo ]
+    print(myList)
     
     
     
